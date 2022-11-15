@@ -641,3 +641,57 @@ Java Model Exception: Error in Java Model (code 969): 03-SpringBootRestJSONOutpu
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2022-11-15 20:08:11.627
 !MESSAGE 03-SpringBootRestJSONOutput does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:03.955
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:03.959
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5474cbdb[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=569)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:03.962
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:06.782
+!MESSAGE Boot LS startup time from start to initialized: 2816ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:06.859
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZiaramxdisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:06.863
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:06.866
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:06.869
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:06.872
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:06.875
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.Ziaramxd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:06.880
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:06.886
+!MESSAGE buffering callback sts4.classpath.Ziaramxd 03-SpringBootRestJSONOutput false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:06.888
+!MESSAGE executing callback sts4.classpath.Ziaramxd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:12:07.345
+!MESSAGE executing callback sts4.classpath.Ziaramxd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:16:11.838
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.Ziaramxd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:16:11.842
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.Ziaramxd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:16:11.846
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-11-15 20:16:11.849
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.Ziaramxd => OK
