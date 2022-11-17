@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+D:\Ashok IT\21 Spring Boot and Microservice Notes\spring boot rest workspace\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
