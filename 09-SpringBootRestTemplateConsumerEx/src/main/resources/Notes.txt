@@ -1,0 +1,7 @@
+//1. Create URL
+//2. Create Request Headers
+//3. Create Request Body
+// (2+3)Combine Headers and Body
+//4. Create RestTemplate Object
+//5. Make HTTP Calls and Get Response back
+//6. Print Details
