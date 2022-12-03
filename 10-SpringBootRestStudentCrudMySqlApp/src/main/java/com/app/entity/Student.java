@@ -41,7 +41,7 @@ public class Student
 	private String stdCourse;
 	
 	@Column(name = "saddr")
-	@Pattern(regexp = "[A-Za-z0-9\\.\\,\\-\\?]{10,250}", message = "Invalid Adress Details")
+	@Pattern(regexp = "[A-Za-z0-9\\.\\,\\ \\-\\?]{3,250}", message = "Invalid Adress Details")
 	private String stdAddr;
 	
 }

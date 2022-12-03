@@ -15,4 +15,8 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: update
+      
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
 
