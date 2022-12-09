@@ -29,6 +29,8 @@ public class StudentRestController
 	private IStudentService service;
 	
 	//1. Create One Student - POST
+	//post: {"stdName":"Nagaraja","stdGen":"Male","stdCourse":"SBMS","stdAddr":"Bangalore KA"}
+	//      "{\"stdName\":\"Naga\",\"stdGen\":\"Male\",\"stdCourse\":\"SBMS\",\"stdAddr\":\"Bangalore KA\"}"
 	@PostMapping("/create")
 	public ResponseEntity<String> createStudent(
 			@RequestBody @Valid Student student)
